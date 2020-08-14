@@ -2,4 +2,7 @@
 # RaituBazaar
 
 
-### Follow me @ [![Revanth Reddy's DEV Profile](https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg)](https://dev.to/revanthreddy)
+### Follow me @ 
+<a href="https://dev.to/revanthreddy">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Revanth Reddy's DEV Profile" height="30" width="30">
+</a>
