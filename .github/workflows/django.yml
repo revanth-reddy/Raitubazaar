@@ -28,8 +28,3 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test shop -v 2
-    - uses: akhileshns/heroku-deploy@v3.4.6 # This is the action
-        with:
-          heroku_api_key: a5290134-68ac-4667-aec4-07f7245df90f
-          heroku_app_name: "raitubazaar" #Must be unique in Heroku
-          heroku_email: "malerevanthreddy3099@gmail.com"
