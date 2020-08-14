@@ -1,4 +1,4 @@
-![Django CI](https://github.com/revanth-reddy/Raitubazaar/workflows/Django%20CI/badge.svg)
+![Django CI](https://github.com/revanth-reddy/Raitubazaar/workflows/Django%20CI/badge.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/revanth-reddy/Raitubazaar?color=Purple&label=Raitu%20Bazaar&logo=django&logoColor=orange)
 # RaituBazaar
 
 
