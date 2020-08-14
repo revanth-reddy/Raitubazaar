@@ -1,3 +1,6 @@
-Django==2.0.1
-Pillow==5.0.0
-pytz==2017.3
+asgiref==3.2.10
+Django==3.1
+Pillow==7.2.0
+pkg-resources==0.0.0
+pytz==2020.1
+sqlparse==0.3.1
