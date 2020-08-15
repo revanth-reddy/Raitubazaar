@@ -31,4 +31,10 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@master
       env:
+        SLACK_USERNAME: RedDev
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_MESSAGE: 'Post Content :rocket:'
+        SLACK_COLOR: '#5ce9ff'
+        SLACK_ICON: https://github.com/revanth-reddy.png?size=48
+        SLACK_TITLE: New Commit
+        SLACK_FOOTER: 'Powered Reddy's SLack Notify'
