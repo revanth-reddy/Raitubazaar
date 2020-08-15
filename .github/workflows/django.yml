@@ -34,3 +34,4 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_MESSAGE: 'Post Content :rocket:'
         SLACK_COLOR: '#5ce9ff'
+        SLACK_FOOTER: 'Powered by RedDev'	
