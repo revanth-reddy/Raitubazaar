@@ -14,14 +14,7 @@ jobs:
       max-parallel: 4
       matrix:
         python-version: [3.6]
-    env:
-      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
     steps:
-    - uses: act10ns/slack@v1
-      with:
-        status: starting
-        channel: '#general'
-      if: always()
     - name: Checkout
       uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
@@ -36,9 +29,12 @@ jobs:
       run: |
         python manage.py test shop -v 2
     - name: Slack Notification
-      uses: act10ns/slack@v1
-      with:
-        status: ${{ job.status }}
-        steps: ${{ toJson(steps) }}
-        channel: '#general'
-      if: always()
+      uses: rtCamp/action-slack-notify@master
+      env:
+        SLACK_COLOR: '#5ce9ff'
+        SLACK_ICON: https://github.com/revanth-reddy.png?size=50
+        SLACK_TITLE: Post Title
+        SLACK_MESSAGE: 'Post Content :rocket:'
+        SLACK_USERNAME: RedDev
+        SLACK_FOOTER: 'Powered by RedDev'
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
