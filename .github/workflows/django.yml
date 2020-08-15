@@ -33,9 +33,8 @@ jobs:
       env:
         SLACK_COLOR: '#5ce9ff'
         SLACK_TITLE: Post Title
-        SLACK_MESSAGE: 'Post Content :rocket:'
-        SLACK_FOOTER: 'Powered by RedDev'
         SLACK_USERNAME: 'RedDev'
+        SLACK_FOOTER: 'Powered by RedDev'
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         
         
