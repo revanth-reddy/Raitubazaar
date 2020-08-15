@@ -33,7 +33,7 @@ jobs:
       env:
         SLACK_COLOR: '#5ce9ff'
         SLACK_ICON: https://github.com/revanth-reddy.png?size=50
-        SLACK_MESSAGE: 'Post Content :https://github.com/revanth-reddy/Raitubazaar/workflows/Django%20CI/badge.svg:'
+        SLACK_MESSAGE: 'Post Content :rocket:'
         SLACK_TITLE: Post Title
         SLACK_USERNAME: RedDev
         SLACK_FOOTER: 'Powered by RedDev'
