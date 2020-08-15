@@ -28,3 +28,7 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test shop -v 2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@master
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
